@@ -31,7 +31,7 @@ Button.prototype = {
 		this.$element.click(function() {
 			alert(self.text);
 		});
-		$('body').append(this.$element);
+		$('.container').append(this.$element);
 	}
 } 
 
